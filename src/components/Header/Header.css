@@ -119,6 +119,7 @@
     }
     .profile-options{
         display: flex;
+        padding: 0 1rem;
         justify-content: space-between;
     }
     .profile-details{
