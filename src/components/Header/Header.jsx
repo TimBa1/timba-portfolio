@@ -14,7 +14,7 @@ function Header({foo}) {
               <a href="https://timilehinbakare.tb@gmail.com"  onClick={foo} className="pp">
                 <i className="fa fa-yahoo fa-1.5x"></i>
               </a>
-              <a href="https://www.linkedin.com/in/abimbola-bakare-470784b3/"  onClick={foo} className="pp">
+              <a href="https://www.linkedin.com/in/timilehin-bakare/"  onClick={foo} className="pp">
                 <i className="fa fa-linkedin-square fa-1.5x"></i>
               </a>
             </div>
@@ -61,7 +61,7 @@ function Header({foo}) {
               {""}
               Hire Me
             </button>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://timilehinbakare.tb@gmail.com" target="_blank" rel="noreferrer">
               <button className="btn highlighted-btn nt">Get Resume</button>
             </a>
           </div>

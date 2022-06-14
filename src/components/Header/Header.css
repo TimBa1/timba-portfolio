@@ -62,15 +62,16 @@
 .profile-picture-background{
     height: 94%;
     width: 94%;
-    background-image: url("../../assets/home/wave.jpg");
+    background-image: url("../../assets/home/IMG_0659.jpeg");
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat; 
-     background-position: center;
+    background-position: top;
 }
 .profile-picture-background:hover{
     transform: scale(1.07);
     transition: 1s ease-out;
+    justify-content: ;
 }
 .pp {
     color: rgb(121, 65, 204); ;

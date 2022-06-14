@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="container educational-section">
               <h1 className="education-heading">EDUCATION</h1>
                   <div className="education-card-container">
-                      <img src={require("../../assets/home/unilag.png")} alt="no-internet" />
+                      <img src={require("../../assets/home/OAU.jfif")} alt="no-internet" />
                       <div className="education-content">
                           <h2>Obafemi Awolowo University</h2>
                           <h4>Bachelor Of Science In Estate Management<br />2016-2022</h4>

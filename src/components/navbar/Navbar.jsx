@@ -5,7 +5,7 @@ import WorkExperience from '../work-experience/WorkExperience';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bb sticky-top shadow">
+    <nav className="navbar navbar-expand-lg navbar-dark shadow">
       <div className="container">
         <div className="container-fluid">
             <img
