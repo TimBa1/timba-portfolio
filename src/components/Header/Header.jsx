@@ -39,11 +39,11 @@ function Header({foo}) {
                   steps={[
                     "Enthusiastic Dev 🏈",
                     1000,
-                    "Front-End Developer 😎",
+                    "Front-End Dev 😎",
                     1000,
                     "Creative Designs💻",
                     1000,
-                    "4 Programing Languages🤝",
+                    "4 Languages🤝",
                     1000,
                     "Html/Css/Js/react📱",
                     1000,
