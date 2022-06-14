@@ -164,3 +164,8 @@ body ::-webkit-scrollbar-thumb {
   border-bottom: 0.185rem solid var(--dark-orange);
   width: fit-content;
 }
+@media only screen and (max-width: 920px) {
+.container-fluid{
+  color: var(--dark-orange);
+}
+}

@@ -8,11 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark shadow">
       <div className="container">
         <div className="container-fluid">
-            <img
-              className="logo"
-              src={require("../../assets/home/bimms.png")}
-              alt="no-internet"
-            />
+             <h1>TimBa</h1>
           <button
             className="navbar-toggler"
             type="button"
