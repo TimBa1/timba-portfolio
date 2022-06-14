@@ -7,7 +7,7 @@
 }
 .section-title{
     padding-bottom: 4rem;
-    color: var(--dark-orange);
+    color: rgb(49, 44, 44);;
 }
 .qualification-data{
     display: grid;
@@ -55,12 +55,12 @@
     display: block;
 }
 .ct{
-    background-color:rgb(12, 10, 22); 
+    background-color:rgb(48, 40, 72);
     border-radius: 20px;
 }
 
 
-@media only screen and(max-width:960px) {
+@media only screen and(max-width:920px) {
     .ct{
         display: flex;
         flex-direction: column;

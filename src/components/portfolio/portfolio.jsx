@@ -8,7 +8,7 @@ function Portfolio() {
       <Fade bottom duration={1000}>
         <div className="container miti">
           <div className="portfolio-info">
-            <h1>Client Project</h1>
+            <h1>CLIENTS PROJECTS</h1>
             <h3 className="pt-5">
               SOME PROJECTS AND CLIENTS THAT I HELPED TO CREATE THEIR TECH
             </h3>

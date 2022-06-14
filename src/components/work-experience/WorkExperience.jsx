@@ -5,9 +5,9 @@ import { Fade } from "react-reveal";
 
 function WorkExperience() {
   return (
-    <section className="qualification-section container tt">
+    <section className="qualification-section container tt " id="skills">
         <Fade bottom duration={1000}>
-      <h1 className="section-title">skils experience</h1>
+      <h1 className="section-title">Skills Experience</h1>
       <div className="qualification-container container">
           <div className="qualification-sections">
              <div className="qualification-content">

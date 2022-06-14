@@ -9,7 +9,10 @@ const Skills = () => {
         <div className="skills-text mt-5 pt-5 ml-1 mb-5 pb-5">
           <h1 className="skills-title tc">specializing in</h1>
           <h3 className="skills-subtitle pb-3">
-            Innovative frontend engineer that loves bringing ideas to life
+            Innovative and avid frontend engineer that loves bringing ideas to life, quick to grasp and implement new technologies to design efficient and scalable products.
+            Dedicated in optimizing codes, proxies and all other services to improve frontend supports.
+            Currently seeking an entry level frontend engineering role to acquire more knowledge on tech stacks and work on real life projects.
+            Skilled at team collaboration while working in the office or remotely. 
           </h3>
           <h4 className="skills pb-4">
             ⚡ Integration of bootstrap and libraries to make application functional<br />
@@ -25,7 +28,7 @@ const Skills = () => {
                       <img src={require("../../assets/home/OAU.jfif")} alt="no-internet" />
                       <div className="education-content">
                           <h2>Obafemi Awolowo University</h2>
-                          <h4>Bachelor Of Science In Estate Management<br />2016-2022</h4>
+                          <h4>Bachelor Of Science In Estate Management<br />2016-2021</h4>
                       </div>
                      
                   </div>
