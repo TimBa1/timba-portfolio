@@ -1,6 +1,7 @@
 import React from 'react';
 import "./footer.css"
 import Head from '../head/Head';
+import { socialMedia } from '../work-experience/experience';
 
 export default function Footer() {
   return  <div className=" tf"> 
@@ -22,7 +23,7 @@ export default function Footer() {
                         <p><a href="http://timilehinbakare.tb@gamil.com"  target="_blank"
                   rel="noreferrer">Email</a></p>
                         <p>About</p>
-                        <p><a href="http://+234-8126414677">Contact</a></p>
+                        <p><a href={"tel:" + socialMedia.number}>Contact</a></p>
                   </div>
                 
                       <div className="copyright lt-sp02">

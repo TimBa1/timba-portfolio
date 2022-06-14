@@ -41,3 +41,12 @@ const workExperiences = {
     ]
   };
 export default workExperiences
+
+export const socialMedia = {
+  Github:"https://github.com/timba1",
+  faceBook:"https://facebook.com/Lordfaithstore",
+  instagram: "https://www.instagram.com/lordfaith.icestore",
+  twitter: "https://twitter.com/__lordfaith",
+  gmail: "timilehinbakare.tb@gmail.com", 
+  number: "+234-809259480",
+}

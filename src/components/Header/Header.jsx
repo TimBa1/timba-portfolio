@@ -1,4 +1,5 @@
 import Typical from "react-typical";
+import { socialMedia } from "../work-experience/experience";
 import './Header.css';
 
 function Header({foo}) {
@@ -57,10 +58,12 @@ function Header({foo}) {
             </span>
           </div>
           <div className="profile-options">
+          <a href={"tel:" + socialMedia.number} rel="noreferrer">
             <button className="btn primary-btn">
               {""}
               Hire Me
-            </button>
+              </button>
+              </a>
             <a href="https://timilehinbakare.tb@gmail.com" target="_blank" rel="noreferrer">
               <button className="btn highlighted-btn nt">Get Resume</button>
             </a>

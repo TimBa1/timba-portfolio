@@ -15,15 +15,13 @@ function Portfolio() {
           </div>
           <div className="projects">
             <div className="muti">
-              <img className="port-img pb-4" src={require("../../assets/home/agrific-mp.jpeg")} alt="no network" />
-              <div className="project-name">Agrific</div>
+              <img className="port-img pb-4" src={require("../../assets/home/timba-ent.mp4")} alt="no network" />
+              <div className="project-name">A simple landing page</div>
               <div className="project-desc">
-                Agrifc is a B2B2C platform aiming to be a comprehensive trade
-                hub that connects Nigeria farm producers and agro-commodity
-                businesses with local and international buyers.
+                this landing page can be utilized as an information website for a client. its very responsive and intuitive, with an ample mixture of vibrant colors.
               </div>
               <button className=" sec-btn">
-                <a href="http://agrifc.com" target="_blank" rel="noreferrer">
+                <a href="https://github.com/TimBa1/timba-ent" target="_blank" rel="noreferrer">
                   visit site
                 </a>
               </button>

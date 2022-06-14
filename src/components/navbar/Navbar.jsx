@@ -1,4 +1,5 @@
 import Skills from '../skills/Skills';
+import { socialMedia } from '../work-experience/experience';
 import WorkExperience from '../work-experience/WorkExperience';
 
 
@@ -25,7 +26,7 @@ function Navbar() {
             <li className="nav-item">
             <a
                   className="nav-link"
-                  href={<Skills/>}
+                  href={<WorkExperience />}
                 >
                   Skills
                 </a>
@@ -41,7 +42,7 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://github.com/TimBa1"
+                  href={socialMedia.Github}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -51,7 +52,7 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="+234-8126414677"
+                  href={"tel:" + socialMedia.number}
                 >
                   contact me
                 </a>
