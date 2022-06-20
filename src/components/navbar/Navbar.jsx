@@ -52,7 +52,7 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href={"tel:" + socialMedia.number}
+                  href={"tel:"+socialMedia.number}
                 >
                   contact me
                 </a>

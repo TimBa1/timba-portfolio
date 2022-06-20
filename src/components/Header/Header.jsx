@@ -64,7 +64,7 @@ function Header({foo}) {
               Hire Me
               </button>
               </a>
-            <a href="https://timilehinbakare.tb@gmail.com" target="_blank" rel="noreferrer">
+            <a href={socialMedia.cv} target="_blank" rel="noreferrer">
               <button className="btn highlighted-btn nt">Get Resume</button>
             </a>
           </div>
