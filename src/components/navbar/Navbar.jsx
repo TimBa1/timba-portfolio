@@ -34,7 +34,7 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href={<WorkExperience/>}
+                  href={<Skills/>}
                 >
                   Work Experience
                 </a>
@@ -61,7 +61,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </nav>
+    </nav> 
   );
 }
 
