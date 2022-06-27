@@ -57,10 +57,10 @@ function Portfolio() {
             <img className="port-img pb-4" src={require("../../assets/home/marketplace-kudi.jpeg")} alt="no network" />
               <div className="project-name">Budget App</div>
               <div className="project-desc">
-                 
+                 this is an optimized app for keeping track of your spending. And money allocted for each needs created. the web app allows you to create categories for spending with a max spending limit and each categories you can create as much list of items you want there with the amount intended for each and a progress bar to show if you are reachinf your limit.
               </div>
               <button className=" sec-btn">
-               <a href="http://kudi.com" target="_blank" rel="noreferrer"> 
+               <a href="http://timba-budget-app.netlify.com" target="_blank" rel="noreferrer"> 
                   visit site
                 </a>
               </button>
