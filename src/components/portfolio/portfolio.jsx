@@ -4,6 +4,7 @@ import "./portfolio.css"
 import client from '../../images/client.jpeg';
 import netflix from '../../images/netflix.jpeg';
 import ent from '../../images/ent.jpeg';
+import lf from '../../images/lf.jpeg';
 
 function Portfolio() {
   return (
@@ -31,7 +32,7 @@ function Portfolio() {
             </div>
             
             <div className=" muti">
-            <img className="port-img pb-4" src={require("../../assets/home/getripay-mp.jpeg")} alt="no network" />
+            <img className="port-img pb-4" src={lf} alt="no network" />
               <div className="project-name">E-COMMERCE</div>
               <div className="project-desc">
                 This is a jewelry e-commerce site. You can order make payment for your orders and all.
