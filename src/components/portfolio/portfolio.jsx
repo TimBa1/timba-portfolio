@@ -1,6 +1,9 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import "./portfolio.css"
+import client from '../../images/client.jpeg';
+import netflix from '../../images/netflix.jpeg';
+import ent from '../../images/ent.jpeg';
 
 function Portfolio() {
   return (
@@ -8,17 +11,17 @@ function Portfolio() {
       <Fade bottom duration={1000}>
         <div className="container miti">
           <div className="portfolio-info">
-            <h1>CLIENTS PROJECTS</h1>-is
+            <h1>CLIENTS PROJECTS</h1>
             <h3 className="pt-5">
               SOME PROJECTS AND CLIENTS THAT I HELPED TO CREATE THEIR TECH
             </h3>
           </div>
           <div className="projects">
             <div className="muti">
-              <img className="port-img pb-4" src={require("../../assets/home/timba-ent.mp4")} alt="no network" />
+              <img className="port-img pb-4" src={ent} alt="no network" />
               <div className="project-name">A simple landing page</div>
               <div className="project-desc">
-                this landing page can be utilized as an information website for a client. its very responsive and intuitive, with an ample mixture of vibrant colors.
+                This landing page can be utilized as an information website for a client. Its very responsive and intuitive, with an ample mixture of vibrant colors.
               </div>
               <button className=" sec-btn">
                 <a href="https://github.com/TimBa1/timba-ent" target="_blank" rel="noreferrer">
@@ -42,7 +45,7 @@ function Portfolio() {
             </div>
             
             <div className="muti">
-            <img className="port-img pb-4" src={require("../../assets/home/marketplace-kudi.jpeg")} alt="no network" />
+            <img className="port-img pb-4" src={client} alt="no network" />
               <div className="project-name">Clients-Portfolio</div>
               <div className="project-desc">
                 This is a portfolio site i designed for a client. its responsive and intuitive.
@@ -55,7 +58,18 @@ function Portfolio() {
               </button>
             </div>
 
-            
+            <div className="muti">
+            <img className="port-img pb-4" src={netflix} alt="no network" />
+              <div className="project-name">Netflix-Clone UI</div>
+              <div className="project-desc">
+                 This is a netflix clone UI. Designed and styled and made responsive.
+              </div>
+              <button className=" sec-btn">
+               <a href="http://timba-netflix-clone.netlify.com" target="_blank" rel="noreferrer"> 
+                  visit site
+                </a>
+              </button>
+            </div>
 
             <div className="muti">
             <img className="port-img pb-4" src={require("../../assets/home/marketplace-kudi.jpeg")} alt="no network" />
