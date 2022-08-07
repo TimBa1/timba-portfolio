@@ -15,7 +15,7 @@ function Portfolio() {
         <div className="container miti">
           <div className="portfolio-info">
             <h1>CLIENTS PROJECTS</h1>
-            <h3 className="pt-5">
+            <h3 className="pt-5 tip">
               SOME PROJECTS AND CLIENTS THAT I HELPED TO CREATE THEIR TECH
             </h3>
           </div>
