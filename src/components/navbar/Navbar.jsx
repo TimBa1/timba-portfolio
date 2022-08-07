@@ -6,7 +6,7 @@ import WorkExperience from '../work-experience/WorkExperience';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark shadow">
+    <nav className="navbar navbar-expand-lg navbar-dark shadow tg">
       <div className="container">
         <div className="container-fluid">
              <h1>TimBa</h1>

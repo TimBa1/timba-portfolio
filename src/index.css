@@ -144,6 +144,12 @@ body ::-webkit-scrollbar-thumb {
   width: 70px;
   height: 70px;
 }
+.tg{
+  position:fixed !important;
+  width:100%;
+
+  background-color: #1f2235;
+}
 .nav-link{
   font-weight: 500;
   cursor: pointer;
