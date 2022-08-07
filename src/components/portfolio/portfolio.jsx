@@ -5,6 +5,8 @@ import client from '../../images/client.jpeg';
 import netflix from '../../images/netflix.jpeg';
 import ent from '../../images/ent.jpeg';
 import lf from '../../images/lf.jpeg';
+import budget from '../../images/budget.jpeg';
+import TASK from '../../images/TASK.jpeg';
 
 function Portfolio() {
   return (
@@ -73,7 +75,7 @@ function Portfolio() {
             </div>
 
             <div className="muti">
-            <img className="port-img pb-4" src={require("../../assets/home/marketplace-kudi.jpeg")} alt="no network" />
+            <img className="port-img pb-4" src={budget} alt="no network" />
               <div className="project-name">Budget App</div>
               <div className="project-desc">
                  this is an optimized app for keeping track of your spending. And money allocted for each needs created. the web app allows you to create categories for spending with a max spending limit and each categories you can create as much list of items you want there with the amount intended for each and a progress bar to show if you are reachinf your limit.
@@ -85,7 +87,7 @@ function Portfolio() {
               </button>
             </div>
             <div className="muti">
-            <img className="port-img pb-4" src={require("../../assets/home/marketplace-kudi.jpeg")} alt="no network" />
+            <img className="port-img pb-4" src={TASK} alt="no network" />
               <div className="project-name">Task Tracker</div>
               <div className="project-desc">
                  This is an app created to create keep track of things needed to be done. Basically its a schedule app where yu can write schedules of things you want to get done.          
