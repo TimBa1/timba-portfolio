@@ -3,7 +3,7 @@ import "./footer.css"
 import Head from '../head/Head';
 import { socialMedia } from '../work-experience/experience';
 
-export default function Footer() {
+export default function Footer({foo}) {
   return  <div className=" tf"> 
   <footer className="footer container">
           <div>
@@ -14,14 +14,14 @@ export default function Footer() {
           <div className="container justify-content-between">
               <div className="colum ">
                   <div className="socials-list d-flex">
-                          <p><i className="fa fa-github-square" aria-hidden="true" /></p>
-                          <p><i className="fa fa-linkedin-square" aria-hidden="true" /></p>
-                          <p><i className="fa fa-yahoo" aria-hidden="true" /></p>
+                          <p><a href={socialMedia.Github}><i className="fa fa-github-square" aria-hidden="true" /></a></p>
+                          <p ><a  href={socialMedia.linkedIn} target="_blank"
+                  rel="noreferrer" onClick={foo}><i className="fa fa-linkedin-square" aria-hidden="true" /></a></p>
+                          <p onClick={()=>window.location = 'mailto:timilehinbakare.tb.com' }><i className="fa fa-yahoo" aria-hidden="true" /></p>
                       </div>
                   <div className="d-flex pl-5 m;-5 sc">
                         <p> <a href={<Head/>}>Home</a></p>
-                        <p><a href="http://timilehinbakare.tb@gamil.com"  target="_blank"
-                  rel="noreferrer">Email</a></p>
+                        <p onClick={()=>window.location = 'mailto:timilehinbakare.tb.com' }><>Email</></p>
                         <p>About</p>
                         <p><a href={"tel:" + socialMedia.number}>Contact</a></p>
                   </div>

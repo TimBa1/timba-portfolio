@@ -1,5 +1,6 @@
 
 export const socialMedia = {
+  linkedIn:"https://linkedin.com/in/timilehin-fredrick-bakare",
   Github:"https://github.com/timba1",
   faceBook:"https://facebook.com/fredbakare",
   instagram: "https://www.instagram.com/iam_timba",

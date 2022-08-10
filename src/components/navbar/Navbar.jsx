@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark shadow tg">
       <div className="container">
         <div className="container-fluid">
-             <h1>TimBa</h1>
+             <h1 className='name-title'>TimBa</h1>
           <button
             className="navbar-toggler"
             type="button"
