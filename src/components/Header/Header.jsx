@@ -12,9 +12,9 @@ function Header({foo}) {
               <a href="https://github.com/TimBa1" onClick={foo}  className="pp">
                 <i className="fa fa-github-square fa-1.5x"></i>
               </a>
-              <p onClick={()=> window.location ='mailto:timilehinbakare.tb.com'} className="pp">
+              <a href="/" onClick={()=> window.location ='mailto:timilehinbakare.tb.com'} className="pp">
                 <i className="fa fa-yahoo fa-1.5x"></i>
-              </p>
+              </a>
               <a href="https://www.linkedin.com/in/timilehin-bakare/"  onClick={foo} className="pp">
                 <i className="fa fa-linkedin-square fa-1.5x"></i>
               </a>
