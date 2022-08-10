@@ -58,7 +58,7 @@ body {
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(159, 154, 174) !important;
+  background-color: rgb(138, 132, 160) !important;
   color: rgb(192, 173, 173);
 }
 
@@ -141,7 +141,10 @@ body ::-webkit-scrollbar-thumb {
 
 /***********NAVBAR***********/
 .name-title{
-  font-family: fa;
+  padding-top: 1rem;
+  font-family: 'Twinkle Star', cursive;
+  font-weight: bolder;  
+  font-size: 30px;
 }
 .logo{
   width: 70px;
